@@ -28,3 +28,5 @@ Interview questions availabe for below technologies:
 22. CSS
 23. BootStrap
 24. React JS
+25. Agile
+26. CICD
