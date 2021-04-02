@@ -15,14 +15,16 @@ Interview questions availabe for below technologies:
 9. Spring JDBC
 10. Spring Boot
 11. Spring Security
-12. Hibernate
-13. JPA
-14. Soap Web Services
-15. Rest Web Services
-16. Micro Services
-17. HTML
-18. JavaScript
-19. JQuery
-20. CSS
-21. BootStrap
-22. React JS
+12. Spring Cloud
+13. Hibernate
+14. JPA
+15. Soap Web Services
+16. Rest Web Services
+17. Micro Services
+18. Design Patterns
+19. HTML
+20. JavaScript
+21. JQuery
+22. CSS
+23. BootStrap
+24. React JS
