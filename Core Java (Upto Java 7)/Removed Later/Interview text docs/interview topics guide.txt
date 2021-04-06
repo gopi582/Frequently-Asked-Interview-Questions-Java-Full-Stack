@@ -1,0 +1,62 @@
+https://github.com/gopi582/java-interview-questions
+https://github.com/RameshMF/Java-Free-Resources-By-JavaGuides/blob/master/Java%208%20Interview%20Questions%20and%20Answers.pdf
+
+https://github.com/gopi582/reactjs-interview-questions
+https://github.com/learning-zone/java-interview-questions
+
+https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html
+
+https://dzone.com/articles/microservice-architecture-with-spring-cloud-and-do
+
+https://www.frgconsulting.com/blog/java-interview-questions/
+
+Core Java:
+-------------
+Java History
+JVM
+JRE
+Outofmemory error
+OOPS
+Abstaract Classes & Interfaces
+Strings
+Collections
+Exceptions Handling
+Serilization, Dserilization and Cloning
+Synchronization & Multi Threading
+Generics
+Equals & Hash Code
+Inner Classes
+Enum
+Java I/O streams.
+Java Reflections
+
+Java 8 Features:
+-------------------
+Lamda Expressions
+Functional Interfaces
+Static & Default Methods in interface
+Method Reference
+Streams
+Optional Classes
+Predefined Functional Intefaces(Predicate,Function,Bi-Function,Bi-Predicate,Consumer,Supplier)
+Date Api
+
+Servlets & JSP
+----------------
+https://www.javatpoint.com/servletinterview
+https://www.javatpoint.com/jspinterview
+https://www.edureka.co/blog/interview-questions/servlet-interview-questions/
+
+Jdbc interview Questions
+--------------------------
+https://www.javatpoint.com/jdbc-interview-questions
+https://www.journaldev.com/2529/jdbc-interview-questions-and-answers
+
+Spring Interview
+----------------------------
+
+
+Important udemy:
+==================
+https://github.com/in28minutes/spring-interview-guide
+https://github.com/in28minutes/JavaInterviewQuestionsAndAnswers

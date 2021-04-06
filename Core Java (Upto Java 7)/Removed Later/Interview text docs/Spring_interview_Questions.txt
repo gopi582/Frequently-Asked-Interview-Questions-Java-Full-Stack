@@ -1,0 +1,215 @@
+Spring Interview Questions:
+=============================
+Spring Core
+*******************
+1. Explain Spring History?
+2. Why Spring is light weight?
+3. Is spring introduced alternative any other technology?
+4. What was the latest version  of spring and explain its new features?
+5. Differences b/w Spring and EJB?
+6. What's meant by loose & tight coupling?
+7. What is meant by frame work?
+8. Advatnages of Spring?
+9. Explain modules of Spring?
+10.Difference b/w Web and Application Frame work?
+11.Explain spring core module?
+12.Explain IOC Conatiner?
+13.Explain different types of beans scopes?
+14.Explain about spring lifecycle?
+14.Explain the xml and programming way to create the init and destory methods?
+15.Difference b/w Bean Factory and Application Context?
+16.Explain Bean Factory and its types?
+17.Explain Application Context and its types?
+18.Write a logic to read the beans from IOC container with help of BeanFactory?
+18.Write a logic to read the beans from IOC container with help of ApplicationContext?
+19.Explain about EL in core module?
+20.Explain role of POJO in Spring?
+21.Explan Dependency Injection?
+22.Explain different types of dependency injection?
+23.Difference b/w IOC and Dependency Injection?
+24.What is meant by Constructor Based Injection and explain its advantages?
+25.What types of values we can insert in Constructor Based Injection?
+26.Give an programming example for Constructor Based Injection? 
+27.What is meant by Setter Based Injection and explain its advantages?
+28.What types of values we can insert in Setter Based Injection?
+29.Give an programming example for Setter Based Injection?
+30.What is meant by Constructor Field Based Injection and explain its advantages?
+31.What types of values we can insert in Field Based Injection?
+32.Give an programming example for Field Based Injection?
+33.Difference b/w Constructor, Setter and Field Based Injection?
+34.Explain all the beans scopes of Spring?
+35.Explain how to define the annotation based spring scopes given an examples?
+36.Difference b/w session and globla-session scopes?
+37.What is meant by autowiring?
+38.Advantages of AutoWiring?
+39.DisAdvanatages of AutoWiring?
+40.Expalin AutoWiring types?
+41.Spring follows which design pattern?
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Spring MVC:
+***************
+1. What is meant by MVC?
+2. Explain spring MVC architecture?
+3. Spring MVC follows which design patterns?
+4. Explain the advantages & disadvantages of Spring MVC?
+5. Explain the steps to build an XML based Spring MVC application? (https://www.javatpoint.com/spring-mvc-multiple-view-page-example)
+6. Explain the steps to build an Annotation based Spring MVC application? (https://www.devglan.com/spring-mvc/spring-mvc-annotation-example).
+7. Explain about the Model Interface and its methods?
+8. Given the steps to integrate the Jdbc Template with Spring MVC App?
+9. Given the steps to integrate the Hibernate with Spring MVC App?
+10.Given the steps to integrate the Jpa with Spring MVC App?
+11.How to render the model data in view pages (HTML/JSP/FTL).
+12.Explain different types of view resolvers?
+13.How to handle the errors in spring MVC with the help of Binding Result?
+14.How to do the validations in Spring MVC?
+15.How Spring MVC works internally?
+16.Spring MVC uses which design patterns?
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Spring Annotations:
+---------------------
+1. Explain about @Autowired?
+2. Explain about @Controller?
+3. Explain about @RestController?
+4. Explain about @RequestMapping?
+5. Explain about @PathParam?
+5. Explain about @PathVariable?
+6. Explain about @RequestParam?
+7. Explain about @ComponetScan?
+8. Explain about @Component?
+9. Explain about @Service?
+9. Explain about @Repository?
+10.Explain about @Qualifier?
+11.Explain about @RequestBody?
+12.Explain about @ResponseBody?
+13.Explain about @GetMapping?
+14.Explain about @PostMapping?
+15.Explain about @PutMapping?
+16.Explain about @DeleteMapping?
+16.Explain about @PatchMapping?
+17.Explain about @PreDestroy?
+18.Explain about @PostConstruct?
+19.Explain about @Configuration?
+19.Explain about @EnableAutoConfiguration?
+20.Explain about @EnableWebMvc?
+21.Explain about @Required?
+22.Explain about @SpringBootApplication?
+23.Explain about @Bean?
+24.Explain about @Lazy?
+25.Explain about @RequestScope?
+26.Explain about @SingletonScope?
+27.Explain about @SessionScope?
+28.Explain about @Crossorigin?
+29.Explain about @ExceptionHandler?
+30.Explain about @ControllerAdvice?
+31.Explain about @RestControllerAdvice?
+32.Explain about @Cacheable?
+33.Explain about @CachePut?
+34.Explain about @CacheEvict?
+35.Explain about @Async?
+36.Explain about @Value?
+37.Difference b/w @RequestParam, @RequestAtribute, @ModelAttribute, @SessionAttribute
+38.Explain @ConditionalOnClass?
+39.Explain @ConditionalOnMissingBean?
+40.
+
+https://springframework.guru/spring-framework-annotations/
+https://dzone.com/articles/frequently-used-annotations-in-spring-boot-applica
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Spring Boot
+==========================================================================================================
+1. What is Spring Boot?
+2. How SpringBoot works internally?
+3. Advantages of SpringBoot?
+4. DisAdvantages of SpringBoot?
+5. Explain annotations under @SpringBootApplication?
+6. Differences b/w SpringBoot 1.x and SpringBoot 2.x?
+7. Differences b/w Spring, Spring MVC and SpringBoot?
+8. Explain SpringBoot Architecture?
+9. Explain about different ways to create the SpringBoot Project?
+10.What are all the different IDE's useful for SpringBoot Application?
+11.Explain about Spring Initializr?
+12.What is meant by Spring Boot Dependency Management and its advantages?
+13.Explain about Spring Boot Starter?
+14.List out few Spring Boot Starter?
+15.How to add third party starters in project?
+16.Exaplin different types of SpringBoot Starters?
+17.Explain about Spring Boot Starter Parent?
+18.Can we run the spring boot starter wiht out parent?
+19.Explain about Spring Boot Starter Web?
+20.Explain about Spring Boot Starter Actuator?
+21.In SpringBoot how to use the external servers instaead of embedded?
+22.What are all the embedde servers supported by SpringBoot?
+23.When to use Embedde servers Tomcat and Jetty?
+24.How to exclude the Embedded servers from po.xml/build.gradle?
+25.Explain about SpringBoot Actuator?
+16.Expalin endpoints available in Actuator?
+17.How to enable and disable the actuator?
+18.What is a shutdown in the actuator?
+19.How to secure the actuator endpoints in springboot?
+20.How to disable the AutoConifugaration classes?
+21.How to enable the H2 databse support in SpringBoot?
+22.What is the use of Spring Boot Thymeleaf?
+23.How to implement the Global Exception handling in Sring Boot?
+24.How to resolve the cross origin issues in Spring Boot?
+25.How to integrate the JPA with SpringBoot?
+26.How to access the properties files in Spring Boot?
+27.How to read the propeties from application.properties/appliction.yml file in SpringBoot?
+28.Difference between application.properties and application.yml?
+29.What is DevTools in Spring Boot?
+30.What is the command to run Spring Boot application to custom port?
+31.How do you Add, Filter to an application?
+32.How to create a Spring Boot project using Maven?
+33.How to create a Spring Boot project using Gradle?
+34.What is the use of profiles in Spring Boot?
+35.How to enable logging in Spring Boot?
+
+https://www.guru99.com/spring-boot-interview-questions.html
+https://www.edureka.co/blog/interview-questions/spring-boot-interview-questions/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+Spring Cloud:
+=================
+1. What is meant by Spring Cloud?
+2. What are all the advantages & disadvantages of Spring Cloud?
+3. Explain Spring cloud features?
+4. Explain the Spring Cloud Components?
+5. Explain about Configuration Management?
+6. Explain about Service Discovery?
+7. Explain the types of Service Discovery?
+8. Explain about APi GateWay?
+9. Explain about CircuitBreaker?
+10.Explain about CircuitBreaker States?
+11.Explain about Routing?
+12.Explain about Tracing?
+13.Explain about service-to-service calls? 
+14.Explain about Cloud Bus?
+15.Explain about Zipkin Server?
+16.Difference b/w Spring Cloud and SpringBoot?
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Spring Security:
+===================
+1. Why wee need the Spring Security?
+2. What are all advantages of Spring Security?
+3. What is the latest version of Sring Security and its features?
+4. Difference b/w Authentication and Authorization?
+5. Explain Security Architecture?
+6. Explain Spring Security History?
+7. Explain Spring security Example?
+8. Explain Spring basic authentication example?
+9. Explain Spring inMemoryAuthentication Example?
+10.Explain Spring Form Based Login Example?
+11.Explain Spring Digestive Based Login Example?
+12.Explain Spring Database authentication Example?
+13.How to validate the JWT token with Spring Security?
+14.Explain Spring security Remember me and Logout example?
+15.Explain about method level SPring security?
+
+https://www.javainuse.com/spring/spring-security-interview-questions
+https://www.techgeeknext.com/spring-boot-security/spring-security-oauth-jwt-interview-questions

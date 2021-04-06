@@ -1,0 +1,264 @@
+Tricky Questions:
+----------------------
+1. What is the order of execution for Main Method, Static block, Constuctor, Instance Block?
+2. Can we overload Main Method?
+3. Can we override main method?
+4. Can we create the Object for final class?
+5. Can we create final and private classes?
+6. Different types of access specifiesrs?
+7. Different types of access modifiers?
+8. Expalin Java reserved words?
+9. Why Java is platform independent?
+10. What is Constructor?
+11. Can we overload private Methods?
+12. Can we override private methods?
+13. Can we overload final Methods?
+14. Can we override final methods?
+15. Can we overload static Methods?
+16. Can we override static methods?
+17. Can we overload protected Methods?
+18. Can we override protected methods?
+19. Is Java “pass-by-reference” or “pass-by-value”?
+-----------------------------------------------------
+Ans: Java is always “pass-by-value”. However, when we pass the value of an object, we pass the reference to it because the variables store the object reference, not the object itself. But this isn’t “pass-by-reference.” 
+
+20. What will happend when we raise the exceptiob but notcatching it?
+21. How to create Java immutable classes?
+22. What is the order of exceptions in inheritance?
+23. Difference b/w final,finally and finalize?
+24. What are the algorathims used by Garbage Collections?
+26. How to handle the Out of memory Error?
+27. Explain JVM arichetecture?
+28. Explain JIT compiler?
+29. Explain JVM memory areas?
+30. Explain JVM Class Loaders and its phases?
+31. Expalin Java OOPS concepts (Class, Object, Abstraction, Inheritance, Encapulation,Polymoriphism).
+32. Difference b/w Compile time and Runtime Polymoriphism?
+33. Difference b/w method overloading and Methos Overriding?
+34. Expalin the Java main method end to end?
+35. Why Java does not support multiple inheritance?
+36. What is the need of Wrapper Classes?
+37. Diffrenceb/w this and super?
+38. Difference b/w static and instance methods? 
+39. Different ways to create an Java Object?
+
+String Interview Programs:
+---------------------------
+https://www.javatpoint.com/java-string-faqs
+https://www.journaldev.com/1321/java-string-interview-questions-and-answers
+
+abstract Classes & Interfaces
+********************************
+1. Difference b/w Abstract class and Interface?
+2. When to use Abstract Class and Interface?
+3. Different types of Interfaces?
+4. What is meant by Marker Interface?
+5. How multiple inheritance possible with Interfaces?
+6. Can we create the Object for Abstract class. If we create object what will happend?
+7. Can we create the Object for Interface. If we create object what will happend?
+8. How to access the abstract class methods?
+9. How to access the Interface methods?
+
+Exceptions:
+--------------------
+1. How to handle the exceptions?
+2. What is the use of try,catch and finally?
+3. What is the order of exceptions in cath block?
+4. Can we have more than one catch block?
+5. Can we have more than one finally bloc?
+6. What is the difference b/w class not found and no class def found error?
+7. Expalin exception hierarchy?
+8. why we need System.exit(0) and System.exit(1) in exception handling?
+9. How to create custom exception?
+10. Difference b/w throw and throws?
+11. Is finally block will execute if exception not catched in catch block?
+12. When to create finally block in exception handling?
+
+Threads:
+*******************
+1. What is the difference between Object level lock vs Class level lock in Java?
+2. Difference b/w Yeild, Join?
+3. Why wait, notify and notifyAll in Object Class?
+4. Difference b/w Sleep and Wait?
+5. Can we Start the thread twice?
+6. What is the need of thread pool?
+7. Explain Thread Life Cycle?
+8. Why we need Synchronization?
+9. Explain thread priorities?
+10.How to improve the performance in synchronization?
+11. What is difference between Executor.submit() and Executer.execute() methods ? 
+---------------------------------------------------------------------------------------
+Ans: There is a difference when looking at exception handling. If your tasks throw an exception and if it was submitted with executing this exception will go to the uncaught exception handler (when you don’t have provided one explicitly, the default one will just print the stack trace to System.err).
+
+If you submitted the task with submit any thrown exception, checked exception or not, is then part of the task’s return status. For a task that was submitted with submitting and that terminates with an exception, the Future.get() will re-throw this exception, wrapped in an ExecutionException.
+
+Serilization & DSerilization & Externilizable:
+************************************************
+1. Difference between Serilization & Externilizable?
+2. What will happen if we serialize the parent and not the child class?
+3. What will happen if we serialize the child and not the parent class?
+4. What is the role of Transient variable in Serialization?
+5. What is the use of serialization UUID?
+6. What will happen if we keep the default serilization UUID for all classes?
+7. How to do the custome serialization?
+8. Why we required the Serilization?
+9. Difference b/w Static VS transient
+10.Difference b/w Final VS transient
+11.How to handle the NotSerialiazableExcpetion?
+
+Generics
+-------------
+1. What is generics?
+2. Explain about generics types?
+3. What is the advantages of generics?
+
+Inner Classes:
+-----------------
+1. What is inner class?
+2. Why we need inner classes?
+3. Difference between nested class and inner class in Java?
+4. Different types of inner classes?
+5. Why ananymous inner class?
+6. When we should go for inner classes?
+7. What is the advanatages of Inner classes?
+----------------------------------------------
+1. Modularity
+===============
+We can achive the modularity by below example
+ex: 
+-------------
+class Acount{
+class StudentAccount{}
+class PersonalAccount{}
+}
+
+2. Abstraction.
+=================
+We can achive the Abstraction by below example
+ex: 
+-------------
+class A{
+class B{
+int i =5;
+}
+class C{
+i=i+5;
+}
+}
+
+In the aboce examplei from B class is not accessbile this is the way abstraction will be provided.
+
+3. Security
+==============
+We can achive the Security by below example
+ex: 
+-------------
+class Acount{
+private class StudentAccount{}
+}
+
+In the above exmple we decleared inner class as private class this is how we can achive security.
+
+4. Sharability
+================
+We can achive the Sharability by below example
+ex: 
+-------------
+class Acount{
+static class StudentAccount{}
+}
+
+In the above exmple we decleared inner class as static class tand the info can be sharable across all inner classes.
+
+
+5. Resualblity
+=================
+We can achive the Resualblity by below example
+ex: 
+-------------
+class Acount{
+class A{}
+class B extends A{}
+}
+
+In the inner classes we can extends the other inner classes. This is how Resuabilty can be achived.
+
+8. For interface we can implement methods using Implementation and for Abstract class we can implement methods using concerete class but why we need Ananymous inner class?
+
+9. When we can go for Implementation class for interface and Concerete class for Abstract class 
+
+Enum:
+-----------
+1. What is meant by Enum?
+2. When we will use ENUM?
+3. What are all the advanatages of Enum?
+4. Difference b/w Enum and Class?
+
+==============================================================================================
+Java I/O streams:
+====================
+1. Waht is meant I/O streams?
+2. Why we need I/O streams?
+3. Advantages of I/O streams?
+4. Explain default I/O streams?
+5. Explain different types of streams?
+6. Disadvantage of streams?
+7. Explain about java files?
+8. Explain different files types?
+
+==============================================================================================
+Java Reflection:
+==================
+1. Waht is meant Reflection?
+2. Why we need Reflection?
+3. Advantages of Reflection?
+4. Advantages of Reflection?
+5. How do you access the package of a class?
+************************************************
+The package of a class can be accessed by calling the method getPackage() on the class object.
+
+Class myClass = Class.forName('java.lang.String');
+Package package = myClass.getPackage();
+
+How do you access the interfaces implemented by a class?
+***********************************************************
+The interfaces of a class can be accessed by calling the method getInterfaces() on the class object.
+
+Class myClass = Class.forName('java.lang.String');
+Package package = myClass.getInterfaces();
+
+How do you access the parent class of a class?
+*******************************************************
+The parent or super class of a class can be accessed by calling the method getSuperClass() on the class object.
+
+Class myClass = Class.forName('java.lang.String');
+Package package = myClass.getSuperclass();
+
+How do you retrieve class access modifiers reflection?
+*******************************************************
+Class access modifiers are the access modifiers such as public, private etc. that a class is declared with. Class modifiers can be accessed calling the method getModifiers() on the class object.
+
+Class myClass = Class.forName('java.lang.String');
+int modifier = myClass.getModifiers();
+
+How do you access constructors defined in a class using reflection?
+********************************************************************
+Constructors of a class can be accessed by calling the method getConstructors() on the class object.
+
+Constructors of a class can be accessed by calling the method getConstructors() on the class object.
+
+How do you access fields defined in a class using reflection?
+*********************************************************************
+Fields of a class can be accessed by calling the method getFields() on the class object.
+
+Class myClass = Class.forName('java.lang.String');
+Field[] fields = myClass.getFields();
+
+How do you access annotations defined in a class using reflection?
+*********************************************************************
+Annotations of a class can be accessed by calling the method getAnnotations() on the class object.
+
+Class myClass = Class.forName('java.lang.String');
+Annotation[] annotations = myClass.getAnnotations();
+
+6. How to acces the private methods in call with reflections?

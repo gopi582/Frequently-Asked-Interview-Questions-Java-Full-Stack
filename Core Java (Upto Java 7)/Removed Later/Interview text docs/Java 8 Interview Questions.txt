@@ -1,0 +1,159 @@
+Java 8 Interview Questions?
+**********************************
+
+Java 8 JVM Questions:
+***********************
+1. Explain the new JVM changes in Java 8?
+2. What is the use of metaspace in Java 8?
+3. How the OutOfmemory error issue resolved in Java 8?
+4. How the garbage collection effective in Java 8?
+5. Explain abovt Java 8 metaspace?
+6. How to increase the metaspace size?
+7. Difference b/w PermGen vs Metaspace?
+
+
+Lambda Expressions:
+=============================
+1. What is Lambda Expression?
+2. What is the use of Lambda Expression?
+3. Explain the Rules of Lambda Expression?
+4. Explain the Lambda Expressions Syntax?
+
+Functional Interface:
+==============================
+1. What is meant by Functional Interface?
+2. What is advantages of Functional Interface?
+3. Expalin few Java predefined Functional Interface?
+4. Can we have more than one abstract method in Functional Interface?
+5. If we add more than one abstract method in Functional Interface what will happend?
+6. Is Functional Interface is vaild when we specify the @FunctionalInterface?
+7. Can we have any number of default and static methods in Functional Interface?
+8. Can we override the public methods of Object classes in Functional Interface?
+
+Java Predefined Functional Interface:
+=======================================
+1. Explain about Predefined Functional Interface?
+2. What are all the types of Predefined Functional Interface?
+3. Explain about Predicate, BiPredicate, LongPredicate, DoublePredicate?
+4. Explain about Function, BiFunction,LongFunction,LongToDoubleFunction .. etc?
+5. Explain about Consumer, BiConsumer, IntConsumer,ObjDoubleConsumer .. etc?
+6. Explain about Supplier, IntSupplier, Double Supplier etc?
+7. Explain methods of Predicate?
+8. Explain methods of Function?
+9. Explain methods of Consumer?
+10.Explain methods of Supplier?
+
+Method Reference:
+======================
+1. What is meant by method reference?
+2. Advantages of Method Reference?
+3. Types of Method Reference?
+
+Default & Static Methods:
+=============================
+1. Why default methods introduced in Java 8?
+2. Why static methods introduced in Java 8?
+3. Difference b/w Abstract classes v/s Java 8 interfaces?
+
+Optional:
+============
+1. What is the need of Optional?
+2. Expalin few methods of Optional?
+3. How efficiently Optional will handle the NullPointerException?
+4. How to handle the excetions with Optional?
+5. What is the Use of Optional.empty()?
+------------------------------------------
+If you want to return the empty object then will use the Optional.empty().
+
+6. When will go for Optional.of()?
+-------------------------------------
+If you are sure about the value presented in output object then will go for Optional.of(), Otherwise it will throw the NullPointerException.
+
+7. When will go for Optional.ofNullable()?
+-------------------------------------------
+If you are sure or not sure about the value presented in output object then will go for Optional.ofNullable(). If value presented it will return the value otherwise it will return the empty Optional.
+
+forEach:
+==============
+1. What is the advantages of forEach?
+2. Expalin one exmple to iterate the List with the help of forEach?
+3. Expalin one exmple to iterate the Map with the help of forEach?
+4. Expalin one exmple to iterate the Stream with the help of forEach?
+
+StringJoiner:
+====================
+1. What is the use of StringJoiner?
+2. Explain the methods of StringJoiner?
+
+Collectors:
+====================
+
+Streams:
+============
+1. What is a stream?
+2. Difference b/w Streams and Collections?
+3. Advantages of Streams?
+4. How to create the Streams?
+5. How to create Stream of Integers?
+6. How to create Stream of Strings?
+7. How to create Stream of Arrays?
+8. How to create Stream from List?
+9. How to collect Stream elements to a List?
+10.How to collect Stream elements to a map?
+11.How to collect Stream elements to a Array?
+12.How to collect Stream elements to a Set?
+13.How to filter the data of Stream?
+14.How to limit the data of Stream?
+15.How to get the unique the data of Stream?
+16.What is the use of  Stream.map()?
+17.Write an example with Stream.map()?
+18.What is the use of  Stream.filter()?
+19.Write an example with Stream.filter()?
+20.What is the use of Stream.sorted()?
+21.Write an example with Stream.sorted()?
+22.What is the use of Stream.collect()?
+23.Write an example with Stream.collect()?
+24.What is the use of Stream.match()?
+25.Write an example with Stream.match()?
+26.What is the use of Stream.reduce()?
+27.Write an example with Stream.reduce()?
+28.What is the use of Stream.anyMatch()?
+29.Write an example with Stream.anyMatch()?
+30.What is the use of Stream.findFirst()?
+31.Write an example with Stream.findFirst()?
+32.What is the use of Stream.findFirst()?
+33.Write an example with Stream.findFirst()?
+34.What is the use of parallelStream?
+35.Write an example with parallelStream?
+36.What is the use of flatMap()?
+37.Write an example with flatMap()?
+38.What is the use of Stream.peek()?
+39.Write an example with Stream.peek()?
+40.Difference b/w forEach and forEachOrdered?
+41.Difference b/w Map and flatMap?
+42.Write a logic to sort the objects using Streams?
+43.What is meant by Infinite Stream?
+44.Write a logic to generate the Random Numbers using Streams?
+45.Write a logic to get the last element in Stream?
+46.Write a logic to convert Iterator to Stream?
+46.Write a logic to sort multiple fileds in objetcs ata time with streams?
+47.Difference b/w Stream.findAny() and Stream.findFirst()?
+48.Write a logic to convert List to Set using Streams?
+49.Write a logic to sort the objects with Streams with the help of Custom sorting (Comparator)?
+50. Explain Lazy evaluation of Streams?
+
+Very Useful: https://howtodoinjava.com/java8/java-streams-by-examples/
+			 https://howtodoinjava.com/java/collections/java-comparator/
+
+Date Time API:
+==============================
+1. Advantages of Java 8 Date Time API?
+2. What is the use of LocalDate Class ?
+3. What is the use of LocalTime Class ?
+4. What is the use of LocalDateTime Class ?
+5. How to add the Hours, Days, Months, Years, Weeks to input date?
+6. How to format the date/time in java 8?
+7. How to find the difference b/w dates, Time, Days, Months, Years?
+8. How to get the Zone specific times (Chicago/Delhi/Chennai etc)?
+9. How to found Leap Year with Date API?
+10. What is the use of ZoneId class?
