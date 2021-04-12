@@ -1,0 +1,10 @@
+Servlets & JSP
+----------------
+https://www.javatpoint.com/servletinterview
+https://www.javatpoint.com/jspinterview
+https://www.edureka.co/blog/interview-questions/servlet-interview-questions/
+
+Jdbc interview Questions
+--------------------------
+https://www.javatpoint.com/jdbc-interview-questions
+https://www.journaldev.com/2529/jdbc-interview-questions-and-answers
