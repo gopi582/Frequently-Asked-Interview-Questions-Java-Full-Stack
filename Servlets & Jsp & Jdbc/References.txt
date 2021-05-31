@@ -19,3 +19,8 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 Spring Integration:
 -------------------------
 https://www.toptal.com/spring/spring-integration-tutorial-redis-microservices
+
+Queries:
+===========
+https://www.edureka.co/blog/interview-questions/sql-query-interview-questions
+https://artoftesting.com/sql-queries-for-interview
