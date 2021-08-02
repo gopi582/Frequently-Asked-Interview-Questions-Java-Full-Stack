@@ -1,0 +1,44 @@
+1. Download the wire mock standalone jar from this link (http://wiremock.org/docs/running-standalone/).
+2. Add this gradle dependency (testImplementation 'com.github.tomakehurst:wiremock-jre8-standalone:2.29.1') in build.gradle file.
+3. Run this command from git bash ot command prompt java -jar wiremock-jre8-standalone-2.29.1.jar
+
+Run the below url's.
+
+1. To know the current mappings (http://localhost:8080/__admin/mappings)
+2. TO get the swagger API and Swagger Docs (http://localhost:8080/__admin/docs)
+3. TO record live application request and response json (http://localhost:8080/__admin/recorder/)
+
+Best Example to write the integration test cases by using wiremock utilization:
+================================================================================
+I have To Micro Services
+
+1. login-service (8082)
+2. reg-service (8081)
+
+In my case in login-service consuming data from reg-service by using the Web Client. To write the integration test case for this scenario added the below steps,
+
+	Wire Mock Server (8080)
+
+1. I have recorded the reg-service request and response by uisng wire mock recorder.
+2. Pasted the Generated json files under src/test/resources/mapping folder.
+3. While invoking the reg-service endpoints from login-service added wiremock port 8080 in login-application instead of reg-service port 8081.
+
+Imp:
+=========
+1. If we are validating the integration test cases in localhost for above applications we need to run the wiremock server in local with command java -jar wiremock-jre8-standalone-2.29.1.jar
+
+2. In PCF we need to copy the recorded json files in PCF and need to run wire mock in PCF seperately.
+
+
+Steps to record the request and response from postman.
+=========================================================
+Example: 
+i)I have a login application that was running on port 8082. for fetching the customer details i am using below url. It is using post method,
+
+http://localhost:8082/login/v1/finByUserId
+
+ii) My wiremock server runnign on 8080 port.
+
+1. Hit this url (http://localhost:8080/__admin/recorder/)
+2. In the record screen give the micro service endpoint (http://localhost:8082)
+3. In the post man we need to hit the microservice with wiremock server url (http://localhost:8080/login/v1/finByUserId).
