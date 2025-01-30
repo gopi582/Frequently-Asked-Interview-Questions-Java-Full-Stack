@@ -30,3 +30,6 @@ Interview questions availabe for below technologies:
 24. React JS
 25. Agile
 26. CICD
+27. Kafka
+28. MongoDB
+29. System Design
